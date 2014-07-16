@@ -6,7 +6,9 @@ gem 'aws-sdk'
 gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'paperclip'
+group :production do
 gem 'pg'
+end
 gem 'sass-rails'
 gem 'uglifier'
 
